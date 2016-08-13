@@ -1,0 +1,9 @@
+name: NapTheV2
+main: napthe\Main
+version: 1.0.0
+api: 2.0.0
+author: JonsMC
+description: Not update yet
+commands:
+   napthe:
+   description: Nothing..
