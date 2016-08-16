@@ -1,0 +1,373 @@
+---
+Volt:
+  alias: gst
+  isDefault: true
+  inheritance: []
+  permissions:
+  - essentials.sign.use.teleport
+  - essentials.warp
+  - essentials.warp.Shop
+  - essentials.warp.pvp
+  - essentials.warp.use
+  - essentials.warps.NewShop
+  - essentials.warps.pvp
+  - essentials.warps.use
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pperms.command.ppinfo
+  - vkits.kit
+  - vkits.kit.pvp
+  - vkits.kit.starter
+  worlds: []
+Mod:
+  alias: ""
+  isDefault: false
+  inheritance:
+  - Volt
+  permissions:
+  - drcore.cmd.fly
+  - fly.bypass
+  - economy.api
+  - economyapi.*
+  - economyshop.create
+  - essentials.command.fly
+  - essentials.command.mute
+  - essentials.fly
+  - essentials.fly.use
+  - essentials.mute
+  - essentials.repair
+  - pchat.coloredMessages
+  - pocketmine,command.time
+  - pocketmine.command
+  - pocketmine.command,time
+  - pocketmine.command.ban
+  - pocketmine.command.ban-ip
+  - pocketmine.command.gamemode
+  - pocketmine.command.kick
+  - pocketmine.command.teleport
+  - pwin.command
+  - vkits.kit.overlord
+  worlds: []
+Admin:
+  alias: adm
+  inheritance:
+  - Volt
+  - Mod
+  permissions:
+  - alias
+  - fly.bypass
+  - drcore.cmd.repair
+  - economy
+  - economy.shop.add
+  - economyapi
+  - economyapi.
+  - economyapi.*
+  - economyapi.command.*
+  - essential.shop.command
+  - essentials.command.vanish
+  - essentials.fly
+  - essentials.fly.use
+  - essentials.gamemode
+  - essentials.vanish
+  - essentials.warp.shop
+  - essentials.warps.Shop
+  - pocketmine.broadcast
+  - pocketmine.command
+  - pocketmine.command.gamemode
+  - pocketmine.command.kick
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - spam.bypass
+  - vkits.kit
+  - vkits.kit.destructor
+  worlds: []
+YTOwner:
+  alias: owr
+  inheritance:
+  - Volt
+  - Admin
+  permissions:
+  - essentials
+  - fly.bypass
+  - pocketmine.command
+  - pperms.command
+  worlds: []
+OP:
+  alias: op
+  inheritance: []
+  permissions:
+  - '*'
+  worlds: []
+Knight:
+  alias: ""
+  isDefault: false
+  inheritance:
+  - Volt
+  permissions:
+  - essentialstp.command.home
+  - essentialstp.command.lhomes
+  - essentialstp.command.sethome
+  - essentialstp.command.warp
+  - essentialstp.command.wild
+  - pchat.colored
+  - vkits.kit
+  - vkits.kit.knight
+  - vkits.kit.starter
+  worlds: []
+Elite:
+  alias: ""
+  isDefault: false
+  inheritance:
+  - Volt
+  permissions:
+  - essentialstp.command.home
+  - essentialstp.command.lhome
+  - essentialstp.command.sethome
+  - essentialstp.command.wild
+  - pchat.colored
+  - vkits.kit
+  - vkits.kit.elite
+  - vkits.kit.knight
+  - vkits.kit.starter
+  worlds: []
+Hero:
+  alias: ""
+  isDefault: false
+  inheritance:
+  - Volt
+  permissions:
+  - essentialstp.command.home
+  - essentialstp.command.lhome
+  - essentialstp.command.sethome
+  - essentialstp.command.wild
+  - pchat.colored
+  - vkits.kit
+  - vkits.kit.elite
+  - vkits.kit.hero
+  - vkits.kit.knight
+  - vkits.kit.starter
+  worlds: []
+Lord:
+  alias: ""
+  isDefault: false
+  inheritance:
+  - Volt
+  permissions:
+  - essentialstp.command.home
+  - essentialstp.command.sethome
+  - essentialstp.command.warp
+  - essentialstp.command.wild
+  - pchat.colored
+  - vkits.kit.elite
+  - vkits.kit.hero
+  - vkits.kit.knight
+  - vkits.kit.lord
+  - vkits.kit.starter
+  worlds: []
+Emperor:
+  alias: ""
+  isDefault: false
+  inheritance:
+  - Volt
+  permissions:
+  - essentials.fly
+  - essentialstp.command.home
+  - essentialstp.command.sethome
+  - essentialstp.command.warp
+  - essentialstp.command.wild
+  - pchat.colored
+  - vkits.kit
+  - vkits.kit.elite
+  - vkits.kit.emperor
+  - vkits.kit.hero
+  - vkits.kit.knight
+  - vkits.kit.lord
+  - vkits.kit.starter
+  worlds: []
+Grandmaster:
+  alias: ""
+  isDefault: false
+  inheritance:
+  - Volt
+  permissions:
+  - drcore.cmd.repair
+  - essentialstp.command.home
+  - essentialstp.command.sethome
+  - essentialstp.command.warp
+  - essentialstp.command.wild
+  - pchat.colored
+  - vkits.kit
+  - vkits.kit.elite
+  - vkits.kit.emperor
+  - vkits.kit.grandmaster
+  - vkits.kit.hero
+  - vkits.kit.knight
+  - vkits.kit.lord
+  - vkits.kit.starter
+  worlds: []
+Overlord:
+  alias: ""
+  isDefault: false
+  inheritance:
+  - Volt
+  permissions:
+  - drcore.cmd.repair
+  - essentials.command.sethome
+  - essentials.repair
+  - essentialstp.command.home
+  - essentialstp.command.warp
+  - essentialstp.command.wild
+  - pchat.colored
+  - vkits.kit
+  - vkits.kit.elite
+  - vkits.kit.emperor
+  - vkits.kit.grandmaster
+  - vkits.kit.hero
+  - vkits.kit.knight
+  - vkits.kit.lord
+  - vkits.kit.overlord
+  - vkits.kit.starter
+  worlds: []
+God:
+  alias: ""
+  isDefault: false
+  inheritance:
+  - Volt
+  permissions:
+  - fly.bypass
+  - drcore.cmd.fly
+  - drcore.cmd.repair
+  - essentials.fly.use
+  - essentials.repair.*
+  - essentialstp.command.home
+  - essentialstp.command.sethome
+  - essentialstp.command.warp
+  - essentialstp.command.wild
+  - pchat.colored
+  - vkits.kit
+  - vkits.kit.elite
+  - vkits.kit.emperor
+  - vkits.kit.god
+  - vkits.kit.grandmaster
+  - vkits.kit.hero
+  - vkits.kit.knight
+  - vkits.kit.lord
+  - vkits.kit.overlord
+  - vkits.kit.starter
+  worlds: []
+Destructor:
+  alias: ""
+  isDefault: false
+  inheritance:
+  - Volt
+  permissions:
+  - drcore.cmd.fly
+  - fly.bypass
+  - drcore.cmd.repair
+  - essentials.command.fly
+  - essentials.fly
+  - essentials.fly.use
+  - essentials.repair.*
+  - essentials.repair.all
+  - essentials.repair.use
+  - essentials.warp
+  - essentialstp.command.home
+  - essentialstp.command.lhomes
+  - essentialstp.command.sethome
+  - essentialstp.command.tp
+  - essentialstp.command.warp
+  - pchat.colored
+  - simplewarp.command.warp.pvp
+  - vkits.kit
+  - vkits.kit.destructor
+  - vkits.kit.elite
+  - vkits.kit.emperor
+  - vkits.kit.god
+  - vkits.kit.grandmaster
+  - vkits.kit.hero
+  - vkits.kit.knight
+  - vkits.kit.lord
+  - vkits.kit.overlord
+  - vkits.kit.starter
+  worlds: []
+CAEO:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: 
+  - fly.bypass
+  worlds: []
+c:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+TrialMod:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - Essentials.warp.pvp
+  - essentials.warp
+  - essentials.warp.pvp
+  - essentials.warp.pvp.usage
+  - essentials.warp.use
+  - essentials.warps.pvp
+  - pchat.colored
+  - pchat.colored.format
+  - pocketmine.command.kick
+  - pocketmine.command.list
+  - vkit.hero
+  -fly.bypass
+  - vkit.overlord
+  - vkits.hero
+  - vkits.kit
+  - vkits.overlord
+  worlds: []
+YT:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - fly.bypass
+  - drcore.cmd.fly
+  - drcore.cmd.repair
+  - essentials.warp
+  - essentials.warp.other
+  - essentials.warp.pvp
+  - essentials.warp.use
+  - essentials.warps.pvp
+  - pchat.colored
+  - vkits.kit
+  - vkits.kit.destructor
+  - vkits.kit.elite
+  - vkits.kit.emperor
+  - vkits.kit.god
+  - vkits.kit.grandmaster
+  - vkits.kit.hero
+  - vkits.kit.knight
+  - vkits.kit.lord
+  - vkits.kit.overlord
+  - vkits.kit.starter
+  worlds: []
+TheUltimate:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+Jailed:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+Dev:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+...
